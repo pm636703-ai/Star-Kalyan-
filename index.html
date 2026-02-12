@@ -3,9 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ANNA KALYAN MATKA</title>
+<title>Anna Kalyan Matka</title>
 
-<!-- META PIXEL -->
+<link href="vendor/external_0.css" rel="stylesheet">
+
+<!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -15,140 +17,57 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-
-fbq('init', 'YOUR_PIXEL_ID');
+fbq('init', '901391755756228');
 fbq('track', 'PageView');
 </script>
 <noscript>
 <img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/>
+src="https://www.facebook.com/tr?id=901391755756228&ev=PageView&noscript=1"/>
 </noscript>
-<!-- END META PIXEL -->
-
-<link href="vendor/external_0.css" rel="stylesheet">
+<!-- End Meta Pixel Code -->
 
 <style>
-body{
-margin:0;
-font-family:'Inter',sans-serif;
-background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
-background-size:400% 400%;
-animation:bgMove 12s ease infinite;
-color:#fff;
-}
-@keyframes bgMove{
-0%{background-position:0% 50%;}
-50%{background-position:100% 50%;}
-100%{background-position:0% 50%;}
-}
-.container{
-max-width:480px;
-margin:20px auto 120px;
-padding:20px;
-background:rgba(255,255,255,0.08);
-backdrop-filter:blur(20px);
-border-radius:22px;
-box-shadow:0 15px 40px rgba(0,0,0,0.5);
-}
-.header{display:flex;gap:15px;align-items:center;}
-.app-icon{width:90px;height:90px;border-radius:25px;box-shadow:0 10px 30px rgba(0,0,0,0.6);}
-.app-title{font-size:20px;font-weight:700;}
-.app-sub{font-size:14px;opacity:0.8;}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Roboto',sans-serif;}
+body{background:#f1f3f4;color:#202124;}
+.container{max-width:500px;margin:auto;background:#fff;min-height:100vh;padding:15px 15px 100px;}
 
-.stats{
-display:flex;
-justify-content:space-between;
-margin:20px 0;
-text-align:center;
-font-size:13px;
-}
+.play-header{margin-bottom:15px;color:#5f6368;font-weight:500;}
+
+.app-info{display:flex;gap:15px;}
+.app-icon{width:80px;height:80px;border-radius:20px;overflow:hidden;box-shadow:0 3px 8px rgba(0,0,0,0.15);}
+.app-icon img{width:100%;height:100%;object-fit:cover;}
+
+.app-title h2{font-size:20px;font-weight:500;}
+.app-title p{color:#1a73e8;font-size:14px;margin-top:3px;}
+.stats{display:flex;gap:18px;margin-top:10px;font-size:13px;color:#5f6368;}
 
 .install-btn{
-width:100%;
-padding:15px;
-border:none;
-border-radius:14px;
-font-size:16px;
-font-weight:600;
-color:#fff;
-cursor:pointer;
-background:linear-gradient(90deg,#00c6ff,#0072ff);
-box-shadow:0 0 25px rgba(0,114,255,0.9);
-}
+margin-top:15px;width:100%;background:#1a73e8;border:none;
+color:#fff;padding:13px;font-size:16px;border-radius:8px;cursor:pointer;}
 
-.section{margin-top:28px;}
-.section h3{margin-bottom:12px;}
+.screenshots{display:flex;gap:10px;overflow-x:auto;margin:20px 0;}
+.screenshots img{min-width:130px;height:240px;border-radius:12px;object-fit:cover;box-shadow:0 2px 6px rgba(0,0,0,0.15);}
 
-.screenshot-row{
-display:flex;
-gap:12px;
-overflow-x:auto;
-}
-.screenshot-row img{
-width:150px;
-border-radius:18px;
-box-shadow:0 8px 20px rgba(0,0,0,0.4);
-}
+.section{margin-top:25px;}
+.section h3{font-size:16px;margin-bottom:10px;}
+.section p{font-size:14px;color:#5f6368;line-height:1.6;margin-bottom:10px;}
 
-.feature-list li{
-margin-bottom:8px;
-}
+.review{border-top:1px solid #eee;padding:10px 0;}
+.review-name{font-weight:500;}
+.stars{color:#34a853;font-size:14px;}
+.review p{font-size:14px;margin-top:5px;color:#5f6368;}
 
-.rating-number{
-font-size:36px;
-font-weight:700;
-}
+.read-more{color:#1a73e8;font-weight:500;cursor:pointer;margin-top:10px;display:inline-block;}
 
-.review{
-background:rgba(255,255,255,0.1);
-padding:12px;
-border-radius:12px;
-margin-top:10px;
+.sticky-bar{
+position:fixed;bottom:0;left:0;width:100%;background:#fff;
+box-shadow:0 -2px 10px rgba(0,0,0,0.1);
+padding:10px 15px;display:flex;align-items:center;
+justify-content:space-between;max-width:500px;margin:auto;right:0;
 }
-
-.overlay{
-position:fixed;
-top:0;left:0;
-width:100%;height:100%;
-background:rgba(0,0,0,0.6);
-display:none;
-justify-content:center;
-align-items:center;
-}
-.overlay-box{
-background:#fff;color:#000;
-padding:30px;border-radius:20px;
-text-align:center;width:80%;
-}
-.loader{
-border:5px solid #eee;
-border-top:5px solid #0072ff;
-border-radius:50%;
-width:45px;height:45px;
-margin:15px auto;
-animation:spin 1s linear infinite;
-}
-@keyframes spin{100%{transform:rotate(360deg);}}
-
-.sticky-install{
-position:fixed;
-bottom:0;left:0;
-width:100%;
-padding:14px;
-background:rgba(0,0,0,0.85);
-text-align:center;
-}
-.sticky-install button{
-width:90%;
-padding:14px;
-border:none;
-border-radius:12px;
-font-size:16px;
-font-weight:600;
-color:#fff;
-background:linear-gradient(90deg,#00c6ff,#0072ff);
-box-shadow:0 0 20px rgba(0,114,255,0.8);
-}
+.sticky-left{display:flex;align-items:center;gap:10px;}
+.sticky-left img{width:40px;height:40px;border-radius:10px;object-fit:cover;}
+.sticky-btn{background:#1a73e8;color:#fff;border:none;padding:8px 16px;border-radius:6px;cursor:pointer;}
 </style>
 </head>
 
@@ -156,111 +75,110 @@ box-shadow:0 0 20px rgba(0,114,255,0.8);
 
 <div class="container">
 
-<div class="header">
-<img src="app-icon.png" class="app-icon">
-<div>
-<div class="app-title">ANNA KALYAN MATKA</div>
-<div class="app-sub">Official Market Result Application</div>
-</div>
-</div>
+<div class="play-header">Google Play</div>
 
+<div class="app-info">
+<div class="app-icon">
+<img src="app-icon.png">
+</div>
+<div class="app-title">
+<h2>Anna Kalyan Matka</h2>
+<p>Anna Kalyan Matka Official</p>
 <div class="stats">
-<div><b>4.9★</b><br>379 Reviews</div>
+<div><b>4.8★</b><br>389 reviews</div>
 <div><b>100K+</b><br>Downloads</div>
-<div><b>4.5+</b><br>Rated</div>
+<div><b>3+</b><br>Rated</div>
+</div>
+</div>
 </div>
 
-<button class="install-btn" onclick="startInstall()">Install Now</button>
+<a href="annakalyan.apk" download>
+<button class="install-btn">Install</button>
+</a>
 
-<div class="section">
-<h3>About This App</h3>
-<p>
-Anna Kalyan Online Play provides fast and accurate market results, daily charts, guessing methods and smooth performance. 
-The app is designed with a simple and user-friendly interface so every user can easily access results without delay.
-</p>
-</div>
-
-<div class="section">
-<h3>Key Features</h3>
-<ul class="feature-list">
-<li>✔ Live Fast Results Update</li>
-<li>✔ Daily & Night Market Charts</li>
-<li>✔ Smooth & Lightweight Interface</li>
-<li>✔ Secure Access System</li>
-<li>✔ Quick Loading Speed</li>
-<li>✔ Regular Updates</li>
-</ul>
-</div>
-
-<div class="section">
-<h3>Data Safety</h3>
-<p>
-Your privacy is important to us. We do not collect unnecessary personal information. 
-All communication is secured with encrypted connections and protected server systems.
-</p>
-</div>
-
-<div class="section">
-<h3>Screenshots</h3>
-<div class="screenshot-row">
+<div class="screenshots">
 <img src="screen1.jpg">
 <img src="screen2.jpg">
 <img src="screen3.jpg">
 <img src="screen4.jpg">
 <img src="screen5.jpg">
 </div>
-</div>
 
+<!-- ABOUT -->
 <div class="section">
-<h3>Ratings & Reviews</h3>
-<div class="rating-number">4.9 ★</div>
-
-<div class="review">
-<strong>Neelesh Singh</strong><br>
-Very smooth app and fast results.
+<h3>About this app</h3>
+<p>
+Anna Kalyan Matka provides organized market information with a clean interface and smooth navigation.
+The app is optimized for fast loading and stable performance across devices.
+</p>
+<p>
+Key Features:<br>
+• Simple and intuitive design<br>
+• Smooth performance<br>
+• Organized information layout<br>
+• Lightweight and responsive<br>
+• Regular updates
+</p>
 </div>
 
-<div class="review">
-<strong>Meena Ramkishor</strong><br>
-Good experience and timely updates.
-</div>
-
-<div class="review">
-<strong>Lalit Kumar</strong><br>
-Simple interface and reliable performance.
+<!-- REVIEWS -->
+<div class="section">
+<h3>User Reviews</h3>
+<div id="reviewContainer"></div>
+<span id="readMoreBtn" class="read-more" onclick="loadMore()">Read more reviews</span>
 </div>
 
 </div>
 
+<!-- STICKY INSTALL -->
+<div class="sticky-bar">
+<div class="sticky-left">
+<img src="app-icon.png">
+<span>Anna Kalyan Matka</span>
 </div>
-
-<div class="sticky-install">
-<button onclick="startInstall()">Install App</button>
-</div>
-
-<div class="overlay" id="overlay">
-<div class="overlay-box">
-<h3>Preparing Download...</h3>
-<div class="loader"></div>
-<p>Your APK will download automatically</p>
-</div>
+<a href="annakalyan.apk" download>
+<button class="sticky-btn">Install</button>
+</a>
 </div>
 
 <script>
-function startInstall(){
+const reviews = [
+{name:"Aman Verma",star:5,text:"App ka interface smooth hai."},
+{name:"Ritika Sharma",star:4,text:"Design clean aur simple hai."},
+{name:"Suresh Patel",star:5,text:"Fast loading experience."},
+{name:"Neha Yadav",star:5,text:"Navigation easy hai."},
+{name:"Vikram Singh",star:4,text:"Overall achha app."},
+{name:"Kunal Gupta",star:5,text:"Responsive and lightweight."},
+{name:"Pooja Mehta",star:4,text:"Layout user friendly."},
+{name:"Arjun Rao",star:5,text:"Simple interface."},
+{name:"Meera Joshi",star:5,text:"Smooth experience."},
+{name:"Rahul Chauhan",star:4,text:"Performance stable hai."}
+];
 
-fbq('track','Lead');
+let visible = 5;
 
-document.getElementById("overlay").style.display="flex";
-
-setTimeout(function(){
-
-fbq('track','CompleteRegistration');
-
-window.location.href="annakalyan(7).apk";
-
-},1500);
+function renderReviews(){
+const container=document.getElementById("reviewContainer");
+container.innerHTML="";
+for(let i=0;i<visible;i++){
+container.innerHTML+=`
+<div class="review">
+<div class="review-name">${reviews[i].name}</div>
+<div class="stars">${"★".repeat(reviews[i].star)}${"☆".repeat(5-reviews[i].star)}</div>
+<p>${reviews[i].text}</p>
+</div>`;
 }
+if(visible>=reviews.length){
+document.getElementById("readMoreBtn").style.display="none";
+}
+}
+
+function loadMore(){
+visible=reviews.length;
+renderReviews();
+}
+
+renderReviews();
 </script>
 
 </body>
